@@ -1,0 +1,13 @@
+html {
+    /* Prevent "Padding" to any element from adding extra space which will increase the width or height 
+    to more than 100% of the viewport along the horizontal and vertical axis which will force to have a scroll bar */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* This will always stretch our background to the fukl 100% height of the viewport even if the content isn't enough to fill up the whole page */
+    min-height: 100vh;
+    background-color: pink;
+    ;
+}
